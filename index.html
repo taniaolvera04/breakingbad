@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BREAKING BAD INICIO</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <style>
+        body{
+            background-image: url(img/breakingbad.jpg);
+            background-size: cover; /* Ajusta la imagen para cubrir todo el área */
+            background-position: center; /* Centra la imagen */
+            background-repeat: no-repeat; /* Evita que la imagen se repita */
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            height:100vh;
+        }
+        @font-face{
+            font-family: 'BB';
+            src:url('css/Heart Breaking Bad.otf') format('opentype');
+        }
+        .letra{
+            font-family: 'BB';
+            font-size: 50px;
+            font-weight: bold;
+            padding: 10px;
+            background: black;
+            color: white;
+        }
+
+
+    </style>
+
+</head>
+<body class="text-center">
+    
+<div class="container-fluid">
+    <div class="frase shadow bg-black boder w-50 m-auto">
+        <div class="letra" id="frase">Hola Mundo Cruel</div>
+    </div>
+
+    <button class="w-25 m-auto btn btn-warning p-3 border mt-5" onclick="consumirAPI()"><h1>CARGAR</h1></button>
+</div>
+
+
+<script src="js/appBB.js"></script>
+
+</body>
+</html> 
